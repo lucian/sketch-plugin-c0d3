@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Code Syntax Highligher",
+      "identifier": "sketch-plugin-c0d3.c0d3-command-highlight-syntax",
+      "shortcut": "ctrl alt shift h",
+      "script": "./c0d3-command.js",
+      "description": "Highlight Code Syntax of selected Text layers"
+    }
+  ],
+  "menu": {
+    "title": "c0d3",
+    "items": [
+      "sketch-plugin-c0d3.c0d3-command-highlight-syntax"
+    ]
+  }
+}
